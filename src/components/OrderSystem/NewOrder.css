@@ -1,0 +1,94 @@
+.orders-container {
+  width: 100%;
+  margin-right: 12rem;
+  padding: 2rem 1rem;
+}
+table,
+th,
+td {
+  text-align: center;
+}
+.new {
+  background-color: green;
+  width: fit-content;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.td-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-orders {
+  position: relative;
+}
+.delete-product {
+  position: absolute;
+  width: fit-content;
+  top: 10%;
+  right: 25%;
+}
+.search-box {
+  width: 100%;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+.search-box input {
+  width: 100%;
+}
+.search-box div button {
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.orders-container .checked_order {
+  position: fixed;
+  top: 30%;
+  right: 45%;
+}
+.checked_order {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  text-align: center;
+}
+.checked_order div {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}
+.checked_order div button {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+.checked_order div button:nth-of-type(2):hover {
+  background-color: red;
+}
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.loaderSearch {
+  display: flex;
+}

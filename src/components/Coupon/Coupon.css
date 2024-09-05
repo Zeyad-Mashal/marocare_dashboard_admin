@@ -1,0 +1,209 @@
+.coupon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  margin-right: 12rem;
+}
+.addCoupon-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px #999;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.addCoupon-box h3 {
+  margin-bottom: 2rem;
+}
+.addCoupon-box input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #999;
+  width: 100%;
+}
+.coupon-box {
+  display: flex;
+  gap: 3rem;
+}
+.date-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.date-box input {
+  width: 350px;
+}
+.add-btn {
+  margin-top: 1rem;
+}
+.add-btn button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  outline: none;
+  font-size: 20px;
+  transition: 0.3s ease;
+  background-color: #0164aa;
+
+  color: #fff;
+}
+.add-btn button:hover {
+  background-color: blue;
+}
+.table-view {
+  width: 100%;
+  padding: 2rem;
+}
+.coupon-btns button {
+  width: fit-content;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  padding: 5px 15px;
+  border: 1px solid #999;
+  font-weight: bold;
+}
+.update-coupon {
+  background-color: #0164aa;
+  transition: 0.3s ease;
+}
+.update-coupon:hover {
+  background-color: blue;
+}
+.delete-coupon {
+  background-color: rgb(235, 0, 0);
+  transition: 0.3s ease;
+}
+.delete-coupon:hover {
+  background-color: rgb(202, 0, 0);
+}
+.stop-coupon {
+  background-color: green;
+  transition: 0.3s ease;
+}
+.stop-coupon:hover {
+  background-color: rgb(0, 106, 0);
+}
+.coupon-container .update-coupon-popup {
+  position: fixed;
+  top: 8rem;
+}
+.update-coupon-popup {
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 4px 5px 5px #999;
+}
+.update-coupon-popup h3 {
+  margin-bottom: 2rem;
+}
+.coupon-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.coupon-box input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #999;
+  border-radius: 10px;
+  width: 100%;
+}
+.date-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.date-box input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #999;
+  border-radius: 10px;
+  min-width: 100%;
+}
+.add-btn p {
+  color: rgb(233, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.add-btn .close {
+  margin-right: 2rem;
+  background-color: rgb(233, 0, 0);
+}
+.add-btn .close:hover {
+  background-color: rgb(210, 0, 0);
+}
+.coupon-container .delete-coupon-popup,
+.coupon-container .stop-coupon-popup {
+  position: fixed;
+  top: 10rem;
+}
+
+.delete-coupon-popup,
+.stop-coupon-popup {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 4px 5px 5px #999;
+}
+.delete-coupon-popup h3 {
+  margin-bottom: 2rem;
+}
+.delete-btns {
+  display: flex;
+  gap: 2rem;
+}
+.delete-btns p {
+  color: rgb(233, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.delete-btns button {
+  background-color: #0164aa;
+  color: white;
+  outline: none;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+}
+.delete-btns button:nth-of-type(2) {
+  background-color: rgb(233, 0, 0);
+}
+.delete-btns button:nth-of-type(1):hover {
+  background-color: blue;
+}
+.delete-btns button:nth-of-type(2):hover {
+  background-color: rgb(215, 0, 0);
+}

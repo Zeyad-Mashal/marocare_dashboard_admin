@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  margin-inline: auto;
+  margin-right: 13rem;
+}
+
+.header_analysis {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.top_header h1 {
+  color: rgb(3, 155, 3);
+}
+.top_header input {
+  padding: 5px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(3, 155, 3);
+}
+.bottom_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 0;
+}
+.card_analysis {
+  box-shadow: 4px 5px 5px #ccc;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card_analysis:nth-of-type(1) {
+  background-color: #0164aa;
+  color: #fff;
+}
+.card_analysis:nth-of-type(2) {
+  background-color: rgb(3, 155, 3);
+  color: #fff;
+}
+.card_analysis:nth-of-type(3) {
+  background-color: rgb(159, 0, 111);
+  color: #fff;
+}
+.card_analysis:nth-of-type(4) {
+  background-color: rgb(190, 200, 0);
+  color: #fff;
+}
+.card_analysis svg {
+  font-size: 25px;
+}
+.body_analysis {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+.card_products {
+  box-shadow: 4px 5px 5px #ccc;
+  background-color: rgb(0, 77, 232);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  height: 250px;
+  color: #fff;
+}
+.card_products svg {
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+.coupon {
+  background-color: rgb(217, 0, 0);
+}
+.return {
+  background-color: grey;
+}
+.container .copyRight {
+  position: fixed;
+  bottom: 0;
+}

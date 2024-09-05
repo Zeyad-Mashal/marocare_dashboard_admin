@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: #eee;
+}
+.App {
+  display: flex;
+  gap: 1rem;
+  background-color: #eee;
+  width: 100%;
+}

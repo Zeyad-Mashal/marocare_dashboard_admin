@@ -1,0 +1,90 @@
+.return_container {
+  margin-right: 14rem;
+  width: 100%;
+}
+.return_box {
+  width: 100%;
+  padding-top: 1rem;
+}
+.search_box {
+  width: 100%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.search_box input {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 10px;
+}
+.search_box button {
+  padding: 10px 15px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  margin-right: 1rem;
+  font-weight: bold;
+  background-color: rgb(0, 0, 212);
+  color: #fff;
+}
+.review_return_table {
+  width: 98%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  height: 100px;
+}
+table .problem {
+  width: 550px;
+  height: 100px;
+  font-size: 18px;
+}
+table .userName {
+  width: 300px;
+}
+table .productName {
+  width: 480px;
+}
+.delete_return {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  background-color: rgb(228, 0, 0);
+  color: #fff;
+  transition: 0.3s ease;
+}
+.delete_return:hover {
+  background-color: red;
+}
+table .delete {
+  border-collapse: collapse;
+}
+.return_container .delete_return_popup {
+  position: fixed;
+  top: 100px;
+  right: 35%;
+}
+.delete_return_popup h3 {
+  margin-bottom: 1rem;
+}
+.delete_return_popup p {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  margin-top: 0;
+  padding-top: 0;
+}
+.search_box_loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search_box_loader span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}

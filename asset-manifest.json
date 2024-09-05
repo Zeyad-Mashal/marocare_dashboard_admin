@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/marocare_dashboard_admin/static/css/main.b2ebb8ce.css",
+    "main.js": "/marocare_dashboard_admin/static/js/main.4145da1d.js",
+    "static/media/logo.png": "/marocare_dashboard_admin/static/media/logo.79a5f787b1de9166fb2d.png",
+    "index.html": "/marocare_dashboard_admin/index.html",
+    "main.b2ebb8ce.css.map": "/marocare_dashboard_admin/static/css/main.b2ebb8ce.css.map",
+    "main.4145da1d.js.map": "/marocare_dashboard_admin/static/js/main.4145da1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2ebb8ce.css",
+    "static/js/main.4145da1d.js"
+  ]
+}

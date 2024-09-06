@@ -60,6 +60,9 @@ const Navbar = () => {
               <Link to={"/returns"}>المرتجعات</Link>
             </li>
             <li>
+              <Link to={"/feedback"}>اراء العملاء</Link>
+            </li>
+            <li>
               <Link to={"/admin"}>لوحة تحكم Admin</Link>
             </li>
             <li onClick={removeToken}>تسجيل خروج</li>

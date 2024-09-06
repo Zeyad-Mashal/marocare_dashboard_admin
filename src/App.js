@@ -18,6 +18,7 @@ import DiscountBrand from './components/Brands/DiscountBrand';
 import ReturnOrders from './components/Returns/ReturnOrders';
 import Login from './components/Login/Login';
 import Admin from './components/Admin/Admin';
+import Contact from "./components/Contact/Contact"
 import { Navigate } from 'react-router-dom';
 function App() {
   const user_token = localStorage.getItem("user_token")
@@ -45,6 +46,7 @@ function App() {
         <Route path="/discountbrand" element={user_token ? <DiscountBrand /> : <Navigate to="/login" />} />
         <Route path="/returns" element={user_token ? <ReturnOrders /> : <Navigate to="/login" />} />
         <Route path="/admin" element={user_token ? <Admin /> : <Navigate to="/login" />} />
+        <Route path="/feedback" element={user_token ? <Contact /> : <Navigate to="/login" />} />
         <Route path="/login" element={user_token ? <Navigate to="/product" /> : <Login />} />
       </Routes>
     </div>

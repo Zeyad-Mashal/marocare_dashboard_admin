@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/marocare_dashboard_admin/static/css/main.b2ebb8ce.css",
-    "main.js": "/marocare_dashboard_admin/static/js/main.9ecde1a0.js",
+    "main.css": "/marocare_dashboard_admin/static/css/main.cba26088.css",
+    "main.js": "/marocare_dashboard_admin/static/js/main.309cd599.js",
     "static/media/logo.png": "/marocare_dashboard_admin/static/media/logo.79a5f787b1de9166fb2d.png",
     "index.html": "/marocare_dashboard_admin/index.html",
-    "main.b2ebb8ce.css.map": "/marocare_dashboard_admin/static/css/main.b2ebb8ce.css.map",
-    "main.9ecde1a0.js.map": "/marocare_dashboard_admin/static/js/main.9ecde1a0.js.map"
+    "main.cba26088.css.map": "/marocare_dashboard_admin/static/css/main.cba26088.css.map",
+    "main.309cd599.js.map": "/marocare_dashboard_admin/static/js/main.309cd599.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2ebb8ce.css",
-    "static/js/main.9ecde1a0.js"
+    "static/css/main.cba26088.css",
+    "static/js/main.309cd599.js"
   ]
 }

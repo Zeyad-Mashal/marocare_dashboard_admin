@@ -184,7 +184,8 @@ const Products = () => {
           setAllProduct,
           setTotalPage,
           setCurrentPage,
-          setNumberOfProducts
+          setNumberOfProducts,
+          currentPage
         );
       }
     }
@@ -266,7 +267,8 @@ const Products = () => {
           setAllProduct,
           setTotalPage,
           setCurrentPage,
-          productID
+          productID,
+          currentPage
         );
       }
     }
@@ -1253,6 +1255,7 @@ const Products = () => {
       </div>
       <div className="pagination-controls">
         <button onClick={next}>التالي</button>
+        {currentPage}
         <button onClick={previous}>السابق</button>
       </div>
     </div>

@@ -1,8 +1,8 @@
 const URL = 'https://maro-cares-z86j.onrender.com/product/addProduct';
 const AccessTOKEN = window.localStorage.getItem("user_token")
-const addProduct = (productData, setError, setloading, setAllProduct, setTotalPage, setCurrentPage, setNumberOfProducts) => {
+const addProduct = (productData, setError, setloading, setAllProduct, setTotalPage, setCurrentPage, setNumberOfProducts, currentPage) => {
     setloading(true)
-    fetch(URL, {
+    fetch(`${URL}/${currentPage}`, {
         method: "POST",
         headers: {
             "authrization": `maroTK${AccessTOKEN}`

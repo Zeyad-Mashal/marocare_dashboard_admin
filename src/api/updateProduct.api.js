@@ -1,8 +1,8 @@
 const URL = 'https://maro-cares-z86j.onrender.com/product/updateProduct/';
 const AccessTOKEN = localStorage.getItem("user_token")
-const updateProduct = (productData, setError, setloading, setAllProduct, setTotalPage, setCurrentPage, productId) => {
+const updateProduct = (productData, setError, setloading, setAllProduct, setTotalPage, setCurrentPage, productId, currentPage) => {
     setloading(true)
-    fetch(`${URL}${productId}`, {
+    fetch(`${URL}${productId}/${currentPage}`, {
         method: "PUT",
         headers: {
             "authrization": `maroTK${AccessTOKEN}`
